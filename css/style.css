@@ -329,6 +329,7 @@ h4 {
 .skill-icons a {
   display: block;
   text-decoration: none;
+  text-align: center;
   height: 45px;
   width: 45px;
   border: 3px;
