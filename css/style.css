@@ -118,7 +118,7 @@ h4 {
 }
 
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -126,7 +126,9 @@ h4 {
   padding: 0.7rem;
   transition: all 0.3s linear;
   background-color: #fff;
-  z-index: 10;
+  color: #711521;
+  z-index: 2;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .navbar.active {
@@ -134,9 +136,11 @@ h4 {
   color: #711521;
   width: 100%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
 
 .navbar .nav-center {
+  /* border: 2px solid white; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -197,7 +201,8 @@ h4 {
   }
 
   .nav-links a {
-    color: #821826;
+    color: #711521;
+    font-size: 1.3rem;
   }
 
   .nav-links li {
