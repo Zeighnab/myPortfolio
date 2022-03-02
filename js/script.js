@@ -14,6 +14,7 @@ function fixNav() {
   }
 }
 
+
 navBtn.addEventListener('click', () => {
   sideBar.classList.add('show-sidebar');
 });
